@@ -1,6 +1,6 @@
-# Typing Test Application
+# TypeTide
 
-A modern and responsive typing test application built to help users practice and improve their typing skills with real-time feedback and detailed statistics.
+A typing speed test web app built purely on Vanilla JS
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.w3.org/Style/CSS/)
