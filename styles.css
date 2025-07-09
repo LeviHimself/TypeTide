@@ -652,7 +652,13 @@ body,
   background: var(--bg-light-gray);
   color: var(--bg-white);
 }
-
+.tag{
+  display: block;
+  font-size: clamp(0.8rem, 2vw, 1rem);
+  color: var(--text-secondary);
+  margin-top: 0.5rem;
+  text-align: center;
+}
 .stop-btn,
 .reset-btn,
 .change-btn,
