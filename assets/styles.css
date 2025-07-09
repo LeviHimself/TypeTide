@@ -979,6 +979,7 @@ body,
   background-color: var(--success);
   color: var(--bg-white);
   box-shadow: 0 8px 25px rgba(32, 201, 151, 0.25);
+  color: white;
 }
 
 .notification.success.show {
@@ -994,11 +995,13 @@ body,
 
 .notification.failure.show {
   animation: slideIn 0.4s ease-out forwards, shake 0.5s ease-out 0.4s;
+  color: white;
 }
 
 .notification.show {
   opacity: 1;
   transform: translateY(0);
+  color: white;
 }
 
 .notification.hidden {

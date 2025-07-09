@@ -364,7 +364,7 @@ function updateErrors() {
   errorLabel.textContent = `${mistakes} Errors`;
 }
 
-// Add this new function
+// Add the togglePausePlay function
 function togglePausePlay() {
   if (!isTyping) return;
 
@@ -373,8 +373,9 @@ function togglePausePlay() {
   if (isPaused) {
     // Pause the test
     clearInterval(timer);
-    pauseStartTime = Date.now();
-    pausePlayIcon.src = "play.png";
+    pauseStartTime = Date.now();  
+    pausePlayIcon.src = "assets/images/play.png";
+    textArea.blur(); 
     textArea.disabled = true;
 
     // Show pause notification
@@ -383,7 +384,8 @@ function togglePausePlay() {
     // Resume the test
     pausedTime += Date.now() - pauseStartTime;
     startTimer();
-    pausePlayIcon.src = "pause.png";
+    pausePlayIcon.src = "assets/images/pause.png"; 
+
     textArea.disabled = false;
     textArea.focus();
   }

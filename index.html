@@ -1,22 +1,32 @@
 <!--
 MIT License
-Copyright (c) 2025 Mudasir.Khalid
 See LICENSE file for details
 -->
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="x-icon" href="Speedometer.png" />
-    <title>TypeTide</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <DOC type="HTML">
+  <html lang="en">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="styles.css" />
-  </head>
+  <!-- Favicon (for browser tab) -->
+  <link rel="icon" type="image/png" href="Speedometer.png" />
+
+  <title>TypeTide</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/styles.css" />
+
+  <!-- Open Graph (WhatsApp / Social Sharing Preview) -->
+  <meta property="og:title" content="TypeTide - Speed Up Your Typing!" />
+  <meta property="og:description" content="Sharpen your typing skills with TypeTide – Fast, Fun, and Free!" />
+  <meta property="og:image" content="https://yourdomain.com/Speedometer.png" />
+  <meta property="og:url" content="https://yourdomain.com" />
+  <meta property="og:type" content="website" />
+</head>
+
 
   <body>
     <div class="background-animation">
@@ -62,7 +72,7 @@ See LICENSE file for details
         TypeTide
         
         <img
-          src="Speedometer.png"
+          src="assets/images/Speedometer.png"
           alt=""
           width="50px"
           height="50px"
@@ -92,7 +102,7 @@ See LICENSE file for details
               disabled
               data-tooltip="Stop Test"
             >
-              <img src="Stop.png" alt="Stop Test" width="30px" height="30px" />
+              <img src="assets/images/Stop.png" alt="Stop Test" width="30px" height="30px" />
             </button>
             <button
               id="pausePlayBtn"
@@ -100,7 +110,7 @@ See LICENSE file for details
               data-tooltip="Pause/Resume Test"
             >
               <img
-                src="pause.png"
+                src="assets/images/pause.png"
                 alt="Pause/Play"
                 id="pausePlayIcon"
                 width="30px"
@@ -112,7 +122,7 @@ See LICENSE file for details
                 data-tooltip="Change Paragraph"
               >
                 <img
-                  src="nextparagraph.png"
+                  src="assets/images/nextparagraph.png"
                   alt="Change Paragraph"
                   width="30px"
                   height="30px"
@@ -121,7 +131,7 @@ See LICENSE file for details
             </button>
             <button id="reset" class="reset-btn" data-tooltip="Reset Test">
               <img
-                src="refresh.png"
+                src="assets/images/refresh.png"
                 alt="Reset Test"
                 width="30px"
                 height="30px"
@@ -133,7 +143,7 @@ See LICENSE file for details
               class="info-btn"
               data-tooltip="Test Information"
             >
-              <img src="info.png" alt="" width="30px" height="30px" />
+              <img src="assets/images/info.png" alt="" width="30px" height="30px" />
             </button>
 
             <button
@@ -144,7 +154,7 @@ See LICENSE file for details
               style="box-shadow: inset 0 2px 4px var(--shadow-color)"
             >
               <img
-                src="light.png"
+                src="assets/images/light.png"
                 alt="Toggle Theme"
                 id="themeIcon"
                 width="30px"
@@ -284,13 +294,13 @@ See LICENSE file for details
             <li>🏁 Close pass: 90% accuracy, 30WPM and under 60 seconds</li>
           </ul>
           <div class="info-tips">
-           <li><img src="Stop.png" alt="" width="30px" height="30px" style="transform: translateY(10px);"/>- Stop the Test</li> 
-           <li><img src="refresh.png" alt="" width="30px" height="30px" style="transform: translateY(10px);"/>- Restart the Test</li> 
-           <li><img src="pause.png" alt="" width="30px" height="30px" style="transform: translateY(10px);"/>- Pause the Test</li> 
-           <li><img src="play.png" alt="" width="30px" height="30px" style="transform: translateY(10px);"/>- Resume the Test</li> 
-           <li><img src="nextparagraph.png" alt="" width="30px" height="30px" style="transform: translateY(10px);"/>- Change the Paragraph</li> 
-           <li><img src="light.png" alt="" width="30px" height="30px" style="transform: translateY(10px);"/>- Toggle Light theme</li>
-           <li><img src="dark.png" alt="" width="30px" height="30px" style="transform: translateY(10px);"/>- Toggle Dark theme</li>  
+           <li><img src="assets/images/Stop.png" alt="" width="30px" height="30px" style="transform: translateY(10px);"/>- Stop the Test</li> 
+           <li><img src="assets/images/refresh.png" alt="" width="30px" height="30px" style="transform: translateY(10px);"/>- Restart the Test</li> 
+           <li><img src="assets/images/pause.png" alt="" width="30px" height="30px" style="transform: translateY(10px);"/>- Pause the Test</li> 
+           <li><img src="assets/images/play.png" alt="" width="30px" height="30px" style="transform: translateY(10px);"/>- Resume the Test</li> 
+           <li><img src="assets/images/nextparagraph.png" alt="" width="30px" height="30px" style="transform: translateY(10px);"/>- Change the Paragraph</li> 
+           <li><img src="assets/images/light.png" alt="" width="30px" height="30px" style="transform: translateY(10px);"/>- Toggle Light theme</li>
+           <li><img src="assets/images/dark.png" alt="" width="30px" height="30px" style="transform: translateY(10px);"/>- Toggle Dark theme</li>  
               <hr />
 
               <li>
@@ -303,8 +313,8 @@ See LICENSE file for details
       </div>
     </div>
 
-    <script src="main.js"></script>
-    <script src="Theme.js"></script>
-    <script src="Notification.js"></script>
+    <script src="assets/main.js"></script>
+    <script src="assets/Theme.js"></script>
+    <script src="assets/Notification.js"></script>
   </body>
 </html>
